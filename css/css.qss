@@ -1,0 +1,75 @@
+QWidget {
+  background-color:lightcyan    ;
+}
+/* R2 */
+QLabel {
+    font: 10pt;
+    color: rgb(0, 0, 127);
+}
+
+/* R3 */
+QComboBox:enabled,
+QLineEdit:enabled,
+QTextBrowser,
+QTableView,
+QTextEdit,
+QProgressBar,
+QTreeWidget,
+QToolBar,
+QListView {
+    color: rgb(127, 0, 63);
+    background-color: honeydew ;
+    border: 2px groove gray;
+    border-radius: 10px;
+    padding: 2px 4px;
+    font:  10pt;
+}
+
+/* R4 */
+QListView {
+    padding: 5px 4px;
+}
+
+
+
+/* R12 */
+QComboBox:!enabled {
+    padding-right: 15px;
+}
+
+/* R13 */
+QComboBox::drop-down:enabled {
+    border-width: 10px;
+    subcontrol-origin: margin;
+    subcontrol-position: center right;
+    width: 7px;
+    height: 6px;
+}
+
+/* R14 */
+QComboBox::drop-down:enabled:open {
+}
+
+/* R15 */
+QComboBox:enabled {
+    margin-right: 29px;
+}
+
+QRadioButton:checked {
+	color:blue ;
+}
+
+QGroupBox::title {
+   color:blue;
+}
+
+QGroupBox {
+	groove ridge outset;
+}
+QMenuBar{
+font:bold 10pt;
+}
+QMenu{
+selection-background-color: blue;
+       selection-color: white;
+}

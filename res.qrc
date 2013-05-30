@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qm/qt_zh_CN.qm</file>
+        <file>images/help.png</file>
+        <file>images/curve.png</file>
+        <file>css/css.qss</file>
+    </qresource>
+</RCC>
